@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1ed0a1202183479781e1b68b80f43ab5" Name="Diagram1">
+        <EntityTypeShape EntityType="ECOMMERCEDBModel.Administration" Width="1.5" PointX="0.75" PointY="6.875" />
+        <EntityTypeShape EntityType="ECOMMERCEDBModel.AspNetRoles" Width="1.5" PointX="7.75" PointY="3.625" />
+        <EntityTypeShape EntityType="ECOMMERCEDBModel.AspNetUserClaims" Width="1.5" PointX="12.25" PointY="4.75" />
+        <EntityTypeShape EntityType="ECOMMERCEDBModel.AspNetUserLogins" Width="1.5" PointX="12.25" PointY="2.125" />
+        <EntityTypeShape EntityType="ECOMMERCEDBModel.AspNetUsers" Width="1.5" PointX="10" PointY="2.5" />
+        <EntityTypeShape EntityType="ECOMMERCEDBModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="9.875" />
+        <EntityTypeShape EntityType="ECOMMERCEDBModel.Categorie" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="ECOMMERCEDBModel.Client" Width="1.5" PointX="7.75" PointY="8.125" />
+        <EntityTypeShape EntityType="ECOMMERCEDBModel.ligne_de_commande" Width="1.5" PointX="5.25" PointY="6.625" />
+        <EntityTypeShape EntityType="ECOMMERCEDBModel.Piece" Width="1.5" PointX="10" PointY="8.25" />
+        <EntityTypeShape EntityType="ECOMMERCEDBModel.Produits" Width="1.5" PointX="3" PointY="3.125" />
+        <EntityTypeShape EntityType="ECOMMERCEDBModel.Promotion" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="ECOMMERCEDBModel.PromotionProduit" Width="1.5" PointX="5.25" PointY="3.5" />
+        <AssociationConnector Association="ECOMMERCEDBModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="ECOMMERCEDBModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="ECOMMERCEDBModel.FK_FKPiece681709" />
+        <AssociationConnector Association="ECOMMERCEDBModel.FK_quantity2" />
+        <AssociationConnector Association="ECOMMERCEDBModel.FK_PromotionProduit_Produit" />
+        <AssociationConnector Association="ECOMMERCEDBModel.FK_PromotionProduit_Promotion" />
+        <AssociationConnector Association="ECOMMERCEDBModel.AspNetUserRoles" />
+        <AssociationConnector Association="ECOMMERCEDBModel.Categorie_Produits" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,87 @@
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-warning navbar-fixed-top">
+  <a class="navbar-brand" href="#">AISHOP</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+
+      <li class="nav-item ayoub" id="nav">
+        <a class="nav-link ayoub" routerLink="">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item dropdown ayoub">
+
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false"> Catégorie </a>
+
+        <!-- dropdown -->
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <div class="row" id="rwall">
+            <div class="col-4" id="grid1">
+              <a class="dropdown-item text-warning" href="#">Mobiles Phones</a>
+              <a class="dropdown-item" routerLink="pagetele">Téléphones</a>
+              <a class="dropdown-item" routerLink="Pageordinateur">Les ordinateurs</a>
+              <a class="dropdown-item" routerLink="pagemontres">Montres</a>
+
+            </div>
+            <div class="col-4" id="grid2">
+              <a class="dropdown-item text-warning" href="#">Mobiles Phones</a>
+              <a class="dropdown-item" routerLink="pagesouris">souris</a>
+              <a class="dropdown-item" routerLink="pagecasque">casque audio</a>
+              <a class="dropdown-item" routerLink="pageclavier">clavier</a>
+              <!-- <a class="dropdown-item text-warning" routerLink="#">Mobiles Phones Accessories</a>
+                            <a class="dropdown-item" routerLink="#">Something else here</a>
+                            <a class="dropdown-item" routerLink="#">Something else here</a>
+                            <a class="dropdown-item" routerLink="#">Something else here</a>
+                            <a class="dropdown-item text-warning" href="#">Hots Brands</a>
+                            <a class="dropdown-item" routerLink="#">levono</a>
+                            <a class="dropdown-item" routerLink="#">OnePlus</a>
+                            <a class="dropdown-item" routerLink="#">HUAWEI</a>
+                            <a class="dropdown-item" routerLink="#">Galaxy</a> -->
+            </div>
+          </div>
+        </div>
+
+
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link ayoub" href="#">About us</a>
+      </li>
+
+      <li class="nav-item ayoub">
+        <a class="nav-link" routerLink="contact">Contact</a>
+      </li>
+
+      <li class="nav-item dropdown ayoub" id="drop">
+
+        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+          <!-- <img src="assets/img/user.jpg" alt="Smiley face" height="32" width="32"> -->
+          <i class="fa fa-user fa-lg" aria-hidden="true"></i>
+
+        </a>
+
+
+        <!-- dropdown -->
+
+        <div class="dropdown-menu">
+          <div class="row">
+            <div class="col-4">
+
+              <a class="dropdown-item" routerLink="login">login</a>
+              <a class="dropdown-item" routerLink="register">register</a>
+
+            </div>
+
+          </div>
+        </div>
+
+
+      </li>
+    </ul>
+  </div>
+</nav>

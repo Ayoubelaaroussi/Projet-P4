@@ -1,0 +1,48 @@
+#img4{
+        width: 24em;
+        margin: 4em 0em 0em 7em;
+        margin-bottom: 2em;
+}
+
+#photo1{
+    width: 5em;
+}
+#photo2{
+    width: 5em;
+}
+#photo3{
+    width: 5em;
+}
+#photo4{
+    width: 5em;
+}
+#petitimag{
+
+        margin-right: 10em;
+        margin-bottom: 2em;
+}
+
+#bgco{
+  background-color: rgba(230, 219, 216, 0.925);
+
+}
+
+.tous{
+
+    padding-left: 20%;
+    padding-top: 6%;
+}
+
+#imgpanel{
+   width: 20em;
+    height: 23em;
+}
+
+.tous2{
+  /* padding-left: 10%; */
+  padding-top: 16%;
+}
+
+.tous3{
+
+}
